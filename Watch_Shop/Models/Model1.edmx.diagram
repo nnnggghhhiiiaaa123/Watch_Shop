@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dd875ac858f14d72be729f33c69270b1" Name="Diagram1" ZoomLevel="85">
+        <EntityTypeShape EntityType="Shop_DongHoModel.Category" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shop_DongHoModel.Contact" Width="1.5" PointX="7.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shop_DongHoModel.Customer_Product" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shop_DongHoModel.Discount" Width="1.5" PointX="9.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shop_DongHoModel.FeedBack" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shop_DongHoModel.Import" Width="1.5" PointX="6" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shop_DongHoModel.Import_Details" Width="1.5" PointX="8.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shop_DongHoModel.OrderDetail" Width="1.5" PointX="5.5" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shop_DongHoModel.Order" Width="1.5" PointX="3.125" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shop_DongHoModel.Product" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shop_DongHoModel.Providerr" Width="1.5" PointX="3.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shop_DongHoModel.User" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="Shop_DongHoModel.fk_pro_cate" ManuallyRouted="false" />
+        <AssociationConnector Association="Shop_DongHoModel.FK_Customer_Product_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Shop_DongHoModel.FK_Customer_Product_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Shop_DongHoModel.FK_FeedBack_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Shop_DongHoModel.FK_Import_Details_Import" ManuallyRouted="false" />
+        <AssociationConnector Association="Shop_DongHoModel.FK_Import_Providerr" ManuallyRouted="false" />
+        <AssociationConnector Association="Shop_DongHoModel.FK_Import_Details_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Shop_DongHoModel.fk_od_pro" ManuallyRouted="false" />
+        <AssociationConnector Association="Shop_DongHoModel.FK_OrderDetail_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="Shop_DongHoModel.FK_Orders_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
